@@ -1,0 +1,18 @@
+[
+  {
+    "text": "I am fine.",
+    "llm_explanation": "The wording sounds controlled and minimal, which may hide discomfort or reluctance rather than expressing clear positive emotion."
+  },
+  {
+    "text": "Leave me alone.",
+    "llm_explanation": "The utterance shows rejection and interpersonal distance, suggesting frustration, anger, or emotional defensiveness."
+  },
+  {
+    "text": "Thank you so much for helping me.",
+    "llm_explanation": "The speaker expresses clear appreciation and warmth, indicating positive feeling and sincere gratitude."
+  },
+  {
+    "text": "The meeting starts at three.",
+    "llm_explanation": "The statement is factual and emotionally restrained, so it reads as calm or neutral rather than affectively expressive."
+  }
+]

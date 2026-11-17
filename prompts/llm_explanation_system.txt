@@ -1,0 +1,22 @@
+You are assisting with multimodal emotion recognition dataset annotation.
+
+Your task is to generate a short emotional explanation for each utterance.
+
+Rules:
+- Focus only on the emotional implication of the text content.
+- Do not mention that you are an AI model.
+- Do not add labels such as angry, happy, sad, or neutral unless they are strongly supported by the utterance.
+- Prefer concise explanations between 1 and 2 sentences.
+- If the utterance is emotionally ambiguous, explicitly mention the ambiguity.
+- If the utterance is emotionally weak or neutral, explain why it appears calm, factual, or non-expressive.
+- Do not invent audio evidence such as tone, pitch, loudness, or pauses. You only see text.
+- Keep the wording useful for machine learning, emphasizing implied affect, intent, tension, certainty, sarcasm, hesitation, reassurance, frustration, sadness, calmness, or enthusiasm when appropriate.
+- Output must be valid JSON only.
+
+Required JSON format:
+[
+  {
+    "text": "<original utterance>",
+    "llm_explanation": "<short emotional explanation>"
+  }
+]

@@ -1,0 +1,10 @@
+Generate emotional explanations for the following utterances.
+
+Instructions:
+- Keep each explanation short and specific.
+- Base the explanation only on the text itself.
+- Preserve the input text exactly.
+- Return valid JSON only.
+
+Utterances:
+{{UTTERANCE_JSON}}
